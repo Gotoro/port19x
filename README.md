@@ -15,7 +15,7 @@
 <h2>
 <p align="center">
   <a href="https://www.codewars.com/users/port19x">
-    <img src="https://www.codewars.com/users/port19x/badges/large"/>
+    <img src="https://www.codewars.com/users/port19x/badges/micro"/>
   </a>
 </p>
 </h2>
