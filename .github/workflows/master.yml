@@ -14,6 +14,7 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          filename: ani-cli.svg
           token: ${{ secrets.METRICS_TOKEN }}
           template: repository
           user: pystardust
@@ -23,3 +24,9 @@ jobs:
           plugin_contributors: yes
           plugin_people: yes
           plugin_traffic: yes
+      - uses: lowlighter/metrics@latest
+        with:
+          filename: github-metrics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          base: activity, community
+          base_indepth: yes
