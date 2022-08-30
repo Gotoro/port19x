@@ -19,10 +19,16 @@ jobs:
           template: repository
           user: pystardust
           repo: ani-cli
-          plugin_lines: yes
           plugin_followup: yes
           plugin_contributors: yes
-          plugin_people: yes
+          plugin_contributors_categories: |
+            {
+            "Code": ["ani-cli"],
+            "Quality": [".github/**"],
+            "Documentation": ["README.md", "ani-cli.1.gz", ".assets/**"],
+            "Governance": ["CONTRIBUTING.md", "LICENSE", "disclaimer.md"],
+            "#️Others": ["*"]
+            }
           plugin_traffic: yes
       - uses: lowlighter/metrics@latest
         with:
