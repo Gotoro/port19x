@@ -7,25 +7,20 @@
 <h2>
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=haskell,python,bash,git,linux,md,latex,regex,neovim" width="55%" height="55%"/>
+    <img src="https://skillicons.dev/icons?i=haskell,bash,git,linux,latex,neovim" width="55%" height="55%"/>
   </a>
 </p>
 </h2>
 
 <h2>
 <p align="center">
-  <a href="https://www.codewars.com/users/port19x">
-    <img src="https://www.codewars.com/users/port19x/badges/micro"/>
-  </a>
+    <img src="./github-metrics.svg"/>
 </p>
 </h2>
 
-<p align="center">
-  <img src="https://github.com/port19x/port19x/blob/main/github-metrics.svg"/>
-</p>
-</h2>
-
-<p align="center">
-  <img src="https://github.com/port19x/port19x/blob/main/ani-cli.svg"/>
-</p>
-
+<details align="center">
+<summary>ani-cli metrics</summary>
+<a href="https://github.com/pystardust/ani-cli">
+<img src="./ani-cli.svg">
+</a>
+</details>
