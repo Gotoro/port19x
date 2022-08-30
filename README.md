@@ -23,3 +23,9 @@
 <p align="center">
   <img src="https://github.com/port19x/port19x/blob/main/github-metrics.svg"/>
 </p>
+</h2>
+
+<p align="center">
+  <img src="https://github.com/port19x/port19x/blob/main/ani-cli.svg"/>
+</p>
+
