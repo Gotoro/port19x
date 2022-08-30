@@ -22,7 +22,7 @@ jobs:
           plugin_lines: yes
           plugin_followup: yes
           plugin_people: yes
-          plugin_people_limit: 10
+          plugin_people_limit: 8
           plugin_people_types: contributors, thanks
           plugin_people_thanks: justfoolingaround, koalaman
           plugin_traffic: yes
