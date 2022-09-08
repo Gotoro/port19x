@@ -7,7 +7,7 @@
 <h2>
 <p align="center">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=haskell,bash,git,linux,latex,neovim" width="55%" height="55%"/>
+    <img src="https://skillicons.dev/icons?i=haskell,bash,git,linux,latex,emacs" width="55%" height="55%"/>
   </a>
 </p>
 </h2>
