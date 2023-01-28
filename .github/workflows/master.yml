@@ -14,6 +14,29 @@ jobs:
     steps:
       - uses: lowlighter/metrics@latest
         with:
+          filename: github-metrics.svg
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: port19x
+          template: classic
+          base: activity, community
+          base_indepth: yes
+          config_timezone: Europe/Berlin
+          plugin_isocalendar: yes
+          plugin_isocalendar_duration: half-year
+          plugin_languages: yes
+          plugin_languages_analysis_timeout: 15
+          plugin_languages_analysis_timeout_repositories: 7.5
+          plugin_languages_categories: markup, programming
+          plugin_languages_colors: github
+          plugin_languages_ignored: javascript
+          plugin_languages_limit: 8
+          plugin_languages_recent_categories: markup, programming
+          plugin_languages_recent_days: 14
+          plugin_languages_recent_load: 300
+          plugin_languages_sections: most-used
+          plugin_languages_threshold: 0%
+      - uses: lowlighter/metrics@latest
+        with:
           filename: ani-cli.svg
           token: ${{ secrets.METRICS_TOKEN }}
           template: repository
@@ -28,7 +51,13 @@ jobs:
           plugin_traffic: yes
       - uses: lowlighter/metrics@latest
         with:
-          filename: github-metrics.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          base: activity, community
-          base_indepth: yes
+          filename: website-metrics.svg
+          user: port19x
+          template: classic
+          base: ""
+          config_timezone: Europe/Berlin
+          plugin_pagespeed: yes
+          plugin_pagespeed_url: port19.xyz
+          plugin_rss: yes
+          plugin_rss_limit: 1
+          plugin_rss_source: https://port19.xyz/rss.xml
