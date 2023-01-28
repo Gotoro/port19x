@@ -1,9 +1,3 @@
-<h1>
-  <p align="center">
-     <img src="https://github.com/xqtc161/xqtc161/blob/main/pixel_computer_transparent.gif">
-  </p>
-</h1>
-
 <h2>
 <p align="center">
   <a href="https://skillicons.dev">
@@ -17,6 +11,13 @@
     <img src="./github-metrics.svg"/>
 </p>
 </h2>
+
+<h2>
+<p align="center">
+    <img src="./website-metrics.svg"/>
+</p>
+</h2>
+
 
 <details align="center">
 <summary>ani-cli metrics</summary>
