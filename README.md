@@ -19,9 +19,11 @@
   </p>
 </h2>
 
-<details align="center">
+<details>
+  <p align="center">
   <summary>ani-cli metrics</summary>
   <a href="https://github.com/pystardust/ani-cli">
     <img src="./ani-cli.svg">
   </a>
+  </p>
 </details>
