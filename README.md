@@ -12,18 +12,17 @@
   </p>
 </h2>
 
-
 <h2>
   <p align="center">
     <img src="./github-metrics.svg"/>
   </p>
 </h2>
-
-<details>
-  <p align="center">
-  <summary>ani-cli metrics</summary>
-  <a href="https://github.com/pystardust/ani-cli">
-    <img src="./ani-cli.svg">
-  </a>
-  </p>
-</details>
+  
+<p align="center">
+  <details>
+    <summary>ani-cli metrics</summary>
+    <a href="https://github.com/pystardust/ani-cli">
+      <img src="./ani-cli.svg">
+    </a>
+  </details>
+</p>
