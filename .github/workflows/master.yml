@@ -25,17 +25,3 @@ jobs:
           plugin_rss: yes
           plugin_rss_limit: 1
           plugin_rss_source: https://port19.xyz/rss.xml
-      - uses: lowlighter/metrics@latest
-        with:
-          filename: ani-cli.svg
-          token: ${{ secrets.METRICS_TOKEN }}
-          template: repository
-          user: pystardust
-          repo: ani-cli
-          plugin_lines: yes
-          plugin_followup: yes
-          plugin_people: yes
-          plugin_people_limit: 8
-          plugin_people_types: contributors
-          plugin_traffic: yes
-
